@@ -9,21 +9,40 @@
 <body>
     <nav>
        <a href="#">Home</a>
-       <a href="./html/charcalc.html">Character calculator</a> 
-
+       <a href="#">Character calculator</a> 
     </nav>
-    <a href="#" style="font-size: 100px;">UwU</a>
-    <sub>TM</sub>
+    <div>
+        <select id="character-selector">
+            
+        </select>
+    </div>
+    <div>
+        <label>BaseHP</label>
+        <input id="basehp" value="" type="number"></input>
+        
+        <label>BaseATK</label>
+        <input id="baseatk" value="" type="number"></input>
+        
+        <label>BaseDEF</label>
+        <input id="basedef" value="" type="number"></input>
+        
+        <label>CritRate</label>
+        <input id="critrate" value="" type="number"></input>
+        
+        <label>CritDamage</label>
+        <input id="critdamage" value="" type="number"></input>
+        
+        <label>EM</label>
+        <input id="em" value="" type="number"></input>
+        
+        <label>DamagePercent</label>
+        <input id="damagepercent" value="" type="number"></input>
+    </div>
 
 
 
 
-
-
-
-    <div id="like-button-root"></div>
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <script src="./js/like-button.js"></script>
+    
+    <script src="./js/calculator.js"></script>
 </body>
 </html>
